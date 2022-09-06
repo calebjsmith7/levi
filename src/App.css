@@ -1,38 +1,45 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.navbar-dark {
+  background-color: #1b2223 !important;
+  padding: .5%;
+  padding-left: 2%;
+  padding-right: 2%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fa-bars {
   color: white;
+  border: none;
+  font-size: 3vh;
+  height: auto;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar-toggler:focus {
+  outline: none !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+.sections {
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#sectionOne {
+  background: 
+  linear-gradient(#1b222300, #1b222326, #1b22235a, #1b2223c2, #1b2223, #1b2223),
+  url('../src/assets//photos/rst_sanctuary.jpeg');
+  background-attachment: scroll;
+  background-position: center center;
+}
+#sectionTwo {
+  background-color: #1b2223;
+}
+#sectionThree {
+  background-color: green;
 }
