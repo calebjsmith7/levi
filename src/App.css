@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   overflow: hidden;
+  font-family: 'CMGSans';
+  color: white;
+  background-color: #1b2223;
 }
 
 .navbar-dark {
@@ -36,10 +39,40 @@
   url('../src/assets//photos/rst_sanctuary.jpeg');
   background-attachment: scroll;
   background-position: center center;
+  height: 100vh;
+  display: flex;
 }
 #sectionTwo {
   background-color: #1b2223;
+  background-attachment: fixed;
+  height: 85vh;
 }
 #sectionThree {
-  background-color: green;
+  background:
+  linear-gradient(#1b2223, #1b2223b5,#1b22238c, #1b2223),
+  url('../src/assets//photos/coolsmoky.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroText {
+  color: white;
+  font-size: 75px;
+  margin: auto;
+}
+.textArea {
+  text-align: left;
+  width: 60%;
+  align-self: center;
+  margin: auto;
+  color: white;
+}
+#headshot {
+  width: 55%;
+  height: 55%;
+  margin: auto;
+  background: 
+  linear-gradient(#1b222300, #1b222326, #1b22235a, #1b2223c2, #1b2223, #1b2223),
+  url('../src/assets//photos/headshot.png');
+  background-position: center center;
+  background-size: contain;
 }

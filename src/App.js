@@ -11,17 +11,17 @@ function App() {
       <div className='App'>
 
         <Navbar />
-       
-          <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/production' element={<Production/>} />
-            <Route path='/creative' element={<Creative/>} />
-          </Routes>
-     
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/production' element={<Production />} />
+          <Route path='/creative' element={<Creative />} />
+        </Routes>
+
       </div>
-      
     </Router>
-    
+
+
   );
 }
 

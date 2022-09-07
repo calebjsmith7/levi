@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav class="navbar  navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Levi Smith</a>
+            <a class="navbar-brand" href="#">LEVI SMITH</a>
             <button id='navbarbtn' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="customicon"><i id="bars" class="fas fa-bars"></i></span>
             </button>
